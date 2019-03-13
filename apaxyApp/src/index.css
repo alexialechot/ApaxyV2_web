@@ -18,3 +18,8 @@ code {
 h1{
   color : yellow;
 }
+
+.footer{
+  height: 15px;
+  background: rgb(223,94,133);
+}
