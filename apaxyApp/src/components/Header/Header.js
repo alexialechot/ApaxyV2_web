@@ -6,7 +6,7 @@ class Header extends Component {
         return(
             <div>
                 <div className="footer fixed-top"></div>
-                <img className="mx-auto d-block my-5" src={logo} alt="Logo"/>
+                <img className="mx-auto d-block my-5 logo" src={logo} alt="Logo"/>
             </div>
         )
     }
