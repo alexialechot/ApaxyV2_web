@@ -1,10 +1,6 @@
 {
     "icons": [
         {
-            "title":"apaxy",
-            "image":"apaxy-v2.svg"
-        },
-        {
             "title":"archives",
             "image":"archives.svg"
         },
@@ -146,7 +142,7 @@
         },
         {
             "title":"json",
-            "image":".json.svg"
+            "image":"json.svg"
         },
         {
             "title":"log",
