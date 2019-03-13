@@ -17,10 +17,14 @@ class App extends Component {
 
           <div className="my-5">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-end">
                 {IconsJson.icons.map(icon => (
                   <div>
-                    <Icon image={require('./images/icons/'+ icon.image)} />
+                  {/*Test */}
+                    <Icon 
+                      image={require('./images/icons/'+ icon.image)} 
+                      title={icon.title}
+                    />
                   </div>
                 ))}
               </div>
