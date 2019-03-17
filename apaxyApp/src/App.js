@@ -15,7 +15,7 @@ class App extends Component {
         <div>
           <Header></Header>
 
-          <div className="my-5">
+          <div className="my-5 icons">
             <div class="container">
               <div class="row align-items-end">
                 {IconsJson.icons.map(icon => (
