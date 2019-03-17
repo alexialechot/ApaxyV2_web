@@ -4,7 +4,8 @@ class Footer extends Component {
     render() {
         return(
             <div>
-                <div className="footer fixed-bottom"></div>
+                <h5 className="text-center my-5">Apaxy v2 by Fusengine</h5>
+                <div className="pink"></div>
             </div>
         )
     }
