@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Style from './icon.module.css';
+import './icon.module.css';
 
-class Icon extends Component {
+class IconGrid extends Component {
     render() {
         return(
             <div className="col mx-2 my-2 text-center">
@@ -11,4 +11,4 @@ class Icon extends Component {
         )
     }     
 }
-export default Icon
+export default IconGrid
