@@ -69,6 +69,10 @@
             "image":"draw.svg"
         },
         {
+            "title":"env",
+            "image":"env.svg"
+        },
+        {
             "title":"eps",
             "image":"eps.svg"
         },
@@ -95,6 +99,14 @@
         {
             "title":"gif",
             "image":"gif.svg"
+        },
+        {
+            "title":"git",
+            "image":"git.svg"
+        },
+        {
+            "title":"gitignore",
+            "image":"gitignore.svg"
         },
         {
             "title":"go",
@@ -125,6 +137,10 @@
             "image":"ico.svg"
         },
         {
+            "title":"indd",
+            "image":"indd.svg"
+        },
+        {
             "title":"install",
             "image":"install.svg"
         },
@@ -145,6 +161,14 @@
             "image":"json.svg"
         },
         {
+            "title":"license",
+            "image":"license.svg"
+        },
+        {
+            "title":"lock",
+            "image":"lock.svg"
+        },
+        {
             "title":"log",
             "image":"log.svg"
         },
@@ -159,6 +183,10 @@
         {
             "title":"package",
             "image":"package.svg"
+        },
+        {
+            "title":"pages",
+            "image":"pages.svg"
         },
         {
             "title":"pdf",
@@ -221,12 +249,20 @@
             "image":"script.svg"
         },     
         {
+            "title":"sketch",
+            "image":"sketch.svg"
+        },     
+        {
             "title":"source",
             "image":"source.svg"
         },     
         {
             "title":"sql",
             "image":"sql.svg"
+        },     
+        {
+            "title":"svg",
+            "image":"svg.svg"
         },     
         {
             "title":"tex",
