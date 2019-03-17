@@ -38,8 +38,8 @@ class App extends Component {
                       <NavLink className="nav-link" to="/doc">Doc</NavLink>
                     </li>
                   </ul>
-                  <ul className="mr-sm-2  mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item  d-inline-block mx-auto">
+                  <ul className="my-auto">
+                    <li class="nav-item  d-inline-block">
                       <a className="nav-link" href="https://hub.docker.com/r/fusengine/apaxy" target="_blank">
                         <img className="dev" src={docker}/>
                       </a>
