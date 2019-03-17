@@ -14,6 +14,10 @@ code {
 .margintop{
   margin-top: 100px;
 }
+h6{
+  color: white;
+}
+/** Link */
 a {
   color: gray;
 }
@@ -21,11 +25,11 @@ a:hover{
   color: white;
   text-decoration: none;
 }
+/** Footer */
 .pink{
   height: 15px;
   background: rgb(223,94,133);
 }
-
 /** Github + Docker */
 .dev {
   width:20px;
@@ -68,7 +72,6 @@ a:hover{
   animation: IconAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
-
 @keyframes IconAnimation {
   0%{
     opacity: 0;
@@ -78,4 +81,24 @@ a:hover{
     opacity: 1;
     transform: translateY(0px);
   }
+}
+/** Screenshot Animation */
+.screenshot{
+  width: 100%;
+  animation: ScreenshotAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+@keyframes ScreenshotAnimation {
+  0%{
+      opacity: 0;
+      transform: translateY(15px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
+/** Documentation */
+.doc{
+  color: white;
 }
