@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { IconGrid } from '../components';
 
-import IconsJson from '../json/icons.json'
+import IconsJson from '../json/iconsstaticdata.json'
 
 class Icon extends Component {
   constructor(props){
