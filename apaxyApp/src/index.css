@@ -11,44 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.margintop{
+  margin-top: 100px;
+}
 a {
   color: gray;
 }
 a:hover{
-  color : blue;
+  color: white;
   text-decoration: none;
 }
-
 .pink{
   height: 15px;
   background: rgb(223,94,133);
 }
 
-.navbar{
-
-}
-
+/** Github + Docker */
 .dev {
   width:20px;
   color: white;
 }
-.dev :hover{
-  fill: blue;
+.nav-link img{
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.nav-link img:hover{
+  transform: translateY(-5px);
 }
 @media (max-width: 400px){
   .dev{
       width: 15px;
   }
-
 }
+/** Logo Navbar */
 .logo{
   min-width: 100px;
   max-height: 400px;
+}
+/** Logo Apaxy page */
+.logo2{
+  width: 180px;
   animation: LogoAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
-
 @keyframes LogoAnimation {
   0%{
       opacity: 0;
@@ -59,9 +63,8 @@ a:hover{
       transform: translateY(0px);
   }
 }
-
+/** Icone animation */
 .icons{
-  margin-top: 100px;
   animation: IconAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
