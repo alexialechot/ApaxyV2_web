@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { IconGrid } from '../components';
 
-import IconsJson from '../json/iconsstaticdata.json'
+/** JSON file */
+import IconsJson from '../json/iconsstaticdata.json';
 
 class Icon extends Component {
   constructor(props){
@@ -10,17 +11,15 @@ class Icon extends Component {
       brunoIcons : IconsJson
     }
   }
-
-  
   render () {
     const {brunoIcons} = this.state
     return (
       <div>
-        <div className="my-5 icons">
+        <div className="icons">
           <div className="container">
             <div className="row align-items-end">
               {brunoIcons.icons.map((icon, index) => (
-                <div>
+                <div className="col-auto">
                 {/* Grid of all the icons */}
                   <IconGrid 
                     image={require('../images/icons/'+ icon.image)} 
