@@ -30,25 +30,25 @@ class App extends Component {
                   <div className="container">
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                       <NavLink className="navbar-brand" to="/">
-                        <img className="logo" src={logo}/>
+                        <img className="logo" src={logo} alt={logo}/>
                       </NavLink>
                       <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
+                        <li className="nav-item">
                           <NavLink className="nav-link" to="/icon">Icon</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                           <NavLink className="nav-link" to="/doc">Doc</NavLink>
                         </li>
                       </ul>
                       <ul className="my-auto">
-                        <li class="nav-item  d-inline-block">
+                        <li className="nav-item  d-inline-block">
                           <a className="nav-link" href="https://hub.docker.com/r/fusengine/apaxy" target="_blank">
-                            <img className="dev" src={docker}/>
+                            <img className="dev" src={docker} alt={docker}/>
                           </a>
                         </li>
-                        <li class="nav-item d-inline-block">
+                        <li className="nav-item d-inline-block">
                           <a className="nav-link" href="https://github.com/fusengine/apaxy-v2" target="_blank">
-                            <img className="dev" src={github}/>
+                            <img className="dev" src={github} alt={github}/>
                           </a>
                         </li>
                       </ul>
