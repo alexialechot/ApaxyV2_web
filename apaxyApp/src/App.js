@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {BrowserRouter as Router, Route, NavLink, Switch} from 'react-router-dom'
 
-
 /** Component */
 import {Footer } from './components';
 
