@@ -27,7 +27,10 @@ Add this line to src/components/index.js:
 ```html
 import 'bootstrap/dist/css/bootstrap.css';
 ```
-
+install[ReactMarkdown](https://github.com/rexxars/react-markdown)
+```sh
+$ yarn add react-markdown
+```
 <br><hr><br>
 
 &copy; 2018 [Alexia Lechot](https://uxmilk.co)
