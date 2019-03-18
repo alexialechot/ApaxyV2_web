@@ -22,11 +22,10 @@ $ yarn start
 <br><hr><br>
 
 # REMINDER
-## Start React Project
-
+## Install React 
 ```sh
-$ yarn global add start-react-app
-$ start-react-app myreactwebappname
+$ yarn global add create-react-app
+$ create-react-app myreactwebappname
 ```
 ## Runing React App
 ```sh
@@ -34,7 +33,6 @@ $ cd myreactwebappname
 $ yarn start 
 # will automatically open the project in localhost
 ```
-
 ## Install node.js
 ```sh
 $ yarn install 
@@ -42,7 +40,6 @@ $ yarn install
 <br>
 
 ## Install Bootstrap to a React project
-
 ```sh
 $ yarn add bootstrap 
 ```
