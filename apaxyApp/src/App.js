@@ -42,12 +42,12 @@ class App extends Component {
                       </ul>
                       <ul className="my-auto">
                         <li className="nav-item  d-inline-block">
-                          <a className="nav-link" href="https://hub.docker.com/r/fusengine/apaxy" target="_blank">
+                          <a className="nav-link" href="https://hub.docker.com/r/fusengine/apaxy" target="_blank" rel="noopener noreferrer">
                             <img className="dev" src={docker} alt={docker}/>
                           </a>
                         </li>
                         <li className="nav-item d-inline-block">
-                          <a className="nav-link" href="https://github.com/fusengine/apaxy-v2" target="_blank">
+                          <a className="nav-link" href="https://github.com/fusengine/apaxy-v2" target="_blank" rel="noopener noreferrer">
                             <img className="dev" src={github} alt={github}/>
                           </a>
                         </li>
