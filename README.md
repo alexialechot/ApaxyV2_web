@@ -21,8 +21,27 @@ $ yarn start
 ```
 <br><hr><br>
 
-## REMINDER
-### Install Bootstrap to a React project
+# REMINDER
+## Start React Project
+
+```sh
+$ yarn global add start-react-app
+$ start-react-app myreactwebappname
+```
+## Runing React App
+```sh
+$ cd myreactwebappname
+$ yarn start 
+# will automatically open the project in localhost
+```
+
+## Install node.js
+```sh
+$ yarn install 
+```
+<br>
+
+## Install Bootstrap to a React project
 
 ```sh
 $ yarn add bootstrap 
@@ -34,7 +53,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 ```
 <br>
 
-### install [ReactMarkdown](https://github.com/rexxars/react-markdown)
+## install [ReactMarkdown](https://github.com/rexxars/react-markdown)
 ```sh
 $ yarn add react-markdown
 ```
