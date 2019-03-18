@@ -1,7 +1,12 @@
 # Apaxy_v2_web
 
-#### Web app for a simple presentation of the Repository [Apaxy-v2](https://github.com/fusengine/apaxy-v2) 
-#### An original project of [Fusengine](https://fusengine.ch)
+#### Web app for a simple presentation of the Repository [Apaxy-V2](https://github.com/fusengine/apaxy-v2) 
+#### An original project by [Fusengine](https://fusengine.ch)
+
+![Screenshot](ApaxyApp/src/images/screenshot/ScreenshotApaxyWeb.png)
+
+## Apaxy V2
+![Screenshot](ApaxyApp/src/images/screenshot/ScreenshotApaxy.png)
 
 <br><hr><br>
 
@@ -17,7 +22,7 @@ $ yarn start
 <br><hr><br>
 
 ## REMINDER
-Install Bootstrap to a React project
+### Install Bootstrap to a React project
 
 ```sh
 $ yarn add bootstrap 
@@ -27,7 +32,9 @@ Add this line to src/components/index.js:
 ```html
 import 'bootstrap/dist/css/bootstrap.css';
 ```
-install[ReactMarkdown](https://github.com/rexxars/react-markdown)
+<br>
+
+### install [ReactMarkdown](https://github.com/rexxars/react-markdown)
 ```sh
 $ yarn add react-markdown
 ```

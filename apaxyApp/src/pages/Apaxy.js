@@ -9,7 +9,7 @@ class Apaxy extends Component {
         return(
             <div className="container">
                 <img className="logo2 mx-auto d-block" src={Logo2} alt={Logo2}/>
-                <h6 className="text-center">Apaxy v2 is a beautiful interface Apache 2</h6>            
+                <h6 className="text-center">Apaxy V2 is a beautiful interface Apache 2</h6>            
                 <img className="screenshot mx-auto d-block" src={Screenshot} alt={Screenshot}/>
             </div>
         )
