@@ -3,7 +3,7 @@
 #### Web app for a simple presentation of the Repository [Apaxy-V2](https://github.com/fusengine/apaxy-v2) 
 #### An original project by [Fusengine](https://fusengine.ch)
 
-![Screenshot](apaxyApp/src/images/screenshot/ScreenshotApaxyWeb.png)
+![Screenshot](ApaxyApp/src/images/screenshot/ScreenshotApaxy.png)
 
 ## Apaxy V2
 ![Screenshot](apaxyApp/src/images/screenshot/ScreenshotApaxy.png)
