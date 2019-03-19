@@ -10,22 +10,15 @@
 
 <br><hr><br>
 
-## TO DO
-```sh
-# install node.js 
-# do this only at the first open
-$ yarn install 
-
-# run app
-$ yarn start 
-```
-<br><hr><br>
-
 # REMINDER
 ## Install React 
 ```sh
 $ yarn global add create-react-app
 $ create-react-app myreactwebappname
+```
+## Install node.js
+```sh
+$ yarn install 
 ```
 ## Runing React App
 ```sh
@@ -33,10 +26,7 @@ $ cd myreactwebappname
 $ yarn start 
 # will automatically open the project in localhost
 ```
-## Install node.js
-```sh
-$ yarn install 
-```
+
 <br>
 
 ## Install Bootstrap to a React project
@@ -48,12 +38,14 @@ Add this line to src/components/index.js:
 ```html
 import 'bootstrap/dist/css/bootstrap.css';
 ```
+
 <br>
 
 ## install [ReactMarkdown](https://github.com/rexxars/react-markdown)
 ```sh
 $ yarn add react-markdown
 ```
+
 <br><hr><br>
 
 &copy; 2018 [Alexia Lechot](https://uxmilk.co)
