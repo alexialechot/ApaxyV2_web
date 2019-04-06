@@ -34,7 +34,7 @@ $ yarn start
 $ yarn add bootstrap 
 ```
 
-Add this line to src/components/index.js:
+Add this line to src/index.js:
 ```html
 import 'bootstrap/dist/css/bootstrap.css';
 ```
