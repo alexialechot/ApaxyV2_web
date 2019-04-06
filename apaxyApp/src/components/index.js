@@ -1,2 +1,3 @@
-export {default as Footer} from './Footer/Footer.js'
-export {default as IconGrid} from './IconGrid/IconGrid.js'
+export { default as Footer } from './Partials/Footer/Footer'
+export { default as IconGrid } from './IconGrid/IconGrid'
+export { default as NavBar } from './Partials/NavBar/NavBar'
