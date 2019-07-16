@@ -8,8 +8,8 @@ export { default as Appaxy } from './Features/Appaxy'
 
 /** COMPONENTS - PARTIALS*/
 /** Navbar */
-export { default as NavBar } from './Partials/NavBar/NavBar'
+export { default as NavBar } from './Partials/NavBar'
 /** Footer */
-export { default as Footer } from './Partials/Footer/Footer'
+export { default as Footer } from './Partials/Footer'
 
 /** Header */
