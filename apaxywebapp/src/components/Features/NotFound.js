@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react'
 /** Component */
 
 /** Images */
-import { logosquare } from '../../../img'
+import { logosquare } from '../../img'
 
 export default class NotFound extends Component {
 	render() {

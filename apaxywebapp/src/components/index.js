@@ -2,9 +2,9 @@
 
 /** PAGES -  FEATURES */
 /** PAGE 404 */
-export { default as NotFound } from './Features/NotFound/NotFound'
+export { default as NotFound } from './Features/NotFound'
 /** PAGE Principale */
-export { default as Appaxy } from './Features/Appaxy/Appaxy'
+export { default as Appaxy } from './Features/Appaxy'
 
 /** COMPONENTS - PARTIALS*/
 /** Navbar */
