@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react'
 /** Images */
 import { logo } from '../../../img'
 
-export default class ReactStarter extends Component {
+export default class Appaxy extends Component {
 	render() {
 		return (
 			<Fragment>

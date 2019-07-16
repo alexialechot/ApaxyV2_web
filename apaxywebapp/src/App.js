@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 /** Components */
-import { NavBar, Footer, NotFound, ReactStarter } from './components'
+import { NavBar, Footer, NotFound, Appaxy } from './components'
 
 export default class App extends Component {
 	render() {
@@ -22,7 +22,7 @@ export default class App extends Component {
 
 						<Switch>
 							{/* MENU - NAVBAR */}
-							<Route exact path="/" component={ReactStarter} />
+							<Route exact path="/" component={Appaxy} />
 
 							{/* 404 */}
 							<Route path="" component={NotFound} />

@@ -3,7 +3,8 @@
 /** PAGES -  FEATURES */
 /** PAGE 404 */
 export { default as NotFound } from './Features/NotFound/NotFound'
-export { default as ReactStarter } from './Features/ReactStarter/ReactStarter'
+/** PAGE Principale */
+export { default as Appaxy } from './Features/Appaxy/Appaxy'
 
 /** COMPONENTS - PARTIALS*/
 /** Navbar */
