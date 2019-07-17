@@ -77,7 +77,7 @@ export default class NavBar extends Component {
 											type="button"
 											className="btn BtnWhite font-weight-bold"
 										>
-											<h4 className="">icons</h4>
+											<h4 className="">Icons</h4>
 										</button>
 									</Link>
 								</li>
@@ -100,7 +100,11 @@ export default class NavBar extends Component {
 									data-toggle="collapse"
 									data-target=".navbar-collapse.show"
 								>
-									<Link className="nav-link" to="/documentation">
+									<Link
+										className="nav-link"
+										to="/documentation"
+										onClick={this.scrollToTop}
+									>
 										<button
 											type="button"
 											className="btn BtnWhite font-weight-bold"
@@ -108,6 +112,26 @@ export default class NavBar extends Component {
 											<h4 className="">Doc</h4>
 										</button>
 									</Link>
+								</li>
+								<li className="nav-item  d-inline-block my-auto">
+									<a
+										className="nav-link"
+										href="https://hub.docker.com/r/fusengine/apaxy"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<i className="fab fa-docker text-white fa-lg HoverAnim" />
+									</a>
+								</li>
+								<li className="nav-item d-inline-block my-auto">
+									<a
+										className="nav-link"
+										href="https://github.com/fusengine/apaxy-v2"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<i className="fab fa-github text-white fa-lg HoverAnim" />
+									</a>
 								</li>
 							</Scrollspy>
 						</div>

@@ -12,15 +12,13 @@ export default class Doc extends Component {
 			<Fragment>
 				<div className="container">
 					{/* MAIN HEADER */}
-					<div className="App">
-						<header className="App-header">
-							<img src={logosquare} className="img-fluid" alt="logo" />
-							<p>
-								Apaxy V2 is a beautiful interface{' '}
-								<code className="font-weight-bold">Apache 2</code>
-							</p>
-						</header>
-					</div>
+					<header className="PageCenter">
+						<img src={logosquare} className="img-fluid" alt="logo" />
+						<p>
+							Apaxy V2 is a beautiful interface Apache 2
+							<code className="font-weight-bold">localhost</code>
+						</p>
+					</header>
 				</div>
 			</Fragment>
 		)

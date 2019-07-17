@@ -9,8 +9,20 @@ export default class Footer extends Component {
 				<div className="Footer text-center bg-dark text-white ">
 					{/* COPYRIGHT */}
 					<div className="container py-2">
+						<h4 className="text-center my-5">
+							Apaxy V2 by{' '}
+							<a
+								href="https://fusengine.ch"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Fusengine
+							</a>{' '}
+							© 2017
+						</h4>
+
 						<h4>
-							© 2019{' '}
+							Website by {' '}
 							<a
 								className="App-link"
 								href="https://krakenwave.ch"
@@ -18,7 +30,8 @@ export default class Footer extends Component {
 								rel="noopener noreferrer"
 							>
 								KRAKENWAVE
-							</a>
+							</a>{' '}
+							© 2019
 						</h4>
 					</div>
 				</div>

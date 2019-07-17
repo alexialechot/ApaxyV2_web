@@ -18,6 +18,11 @@ $primary: rgb(179, 43, 74) !default;
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 /* - - - - - - - - - - - - - - - - - - - - - GENERALE - - - - - - - - - - - - - - - - - - - - - - */
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.0625em;
@@ -33,7 +38,7 @@ body {
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-	color: $primary;
+	color: white;
 }
 
 /* - - - - - - - A - - - - - - - - */
@@ -71,4 +76,13 @@ a {
 .btn {
 	border-radius: 6rem;
 	outline: none;
+}
+
+/* - - - - - - - PAGE CENTER - - - - - - - - */
+.PageCenter {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
