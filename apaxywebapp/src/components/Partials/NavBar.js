@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 // Add # (anchor link) to router
 import { HashLink as Link } from 'react-router-hash-link'
+import { NavLink } from 'react-router-dom'
 // Scroll animation
 import { animateScroll as scroll } from 'react-scroll'
 // Add active class to li when their # is visible
@@ -48,7 +49,7 @@ export default class NavBar extends Component {
 				>
 					<div className="container">
 						<Link className="navbar-brand" to="/" onClick={this.scrollToTop}>
-							<img src={logo} alt={logo} height="30" />
+							<img src={logo} alt={logo} height="35" />
 						</Link>
 						<button
 							className="navbar-toggler btn"
@@ -64,7 +65,7 @@ export default class NavBar extends Component {
 						<div className="collapse navbar-collapse text-center" id="navbarNav">
 							<Scrollspy
 								className="navbar-nav ml-auto"
-								items={['1', '2', '3']}
+								items={['icons', 'preview']}
 								currentClassName="active"
 							>
 								<li
@@ -100,7 +101,7 @@ export default class NavBar extends Component {
 									data-toggle="collapse"
 									data-target=".navbar-collapse.show"
 								>
-									<Link
+									<NavLink
 										className="nav-link"
 										to="/documentation"
 										onClick={this.scrollToTop}
@@ -109,11 +110,11 @@ export default class NavBar extends Component {
 											type="button"
 											className="btn BtnWhite font-weight-bold"
 										>
-											<h4 className="">Doc</h4>
+											<h4>Doc</h4>
 										</button>
-									</Link>
+									</NavLink>
 								</li>
-								<li className="nav-item  d-inline-block my-auto">
+								<li className="nav-item d-inline-block my-auto">
 									<a
 										className="nav-link"
 										href="https://hub.docker.com/r/fusengine/apaxy"

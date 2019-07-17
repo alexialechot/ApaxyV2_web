@@ -12,6 +12,7 @@ export default class Footer extends Component {
 						<h4 className="text-center my-5">
 							Apaxy V2 by{' '}
 							<a
+								className="App-link"
 								href="https://fusengine.ch"
 								target="_blank"
 								rel="noopener noreferrer"

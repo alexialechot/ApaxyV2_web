@@ -21,6 +21,7 @@ export default class Appaxy extends Component {
 						<p className="text-center">
 							By{' '}
 							<a
+								className="App-link"
 								href="https://fusengine.ch"
 								target="_blank"
 								rel="noopener noreferrer"
