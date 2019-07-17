@@ -14,7 +14,7 @@ export default class Appaxy extends Component {
 				<header className="container PageCenter">
 					<img src={feather} className="img-fluid LogoAnim mb-3" alt="logo" />
 					<img src={logotext} className="img-fluid my-4" alt="logo" />
-					<p className="mt-5 pt-5">
+					<p className="mt-5 pt-5 text-center">
 						Apaxy V2 is a beautiful interface <code>Apache 2</code>
 					</p>
 					<p className="text-center">
@@ -34,8 +34,12 @@ export default class Appaxy extends Component {
 				{/* PREVIEW */}
 				<div className="container PageCenter" id="preview">
 					<img src={preview} className="img-fluid my-4" alt="preview" />
-					<p>
+					<p className="text-center">
 						Preview of Apaxy V2 in a Docker Lab <code>localhost</code>
+						<br />
+						To enhance the experience of browsing web directories.<br />
+						It uses the <code>mod_autoindex</code> Apache module and some<br />
+						<code>CSS</code> to override the default style of a directory listing.
 					</p>
 				</div>
 			</Fragment>
