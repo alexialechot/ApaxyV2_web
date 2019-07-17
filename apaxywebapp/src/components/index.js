@@ -5,11 +5,16 @@
 export { default as NotFound } from './Features/NotFound'
 /** PAGE Principale */
 export { default as Appaxy } from './Features/Appaxy'
+/** PAGE Doc */
+export { default as Doc } from './Features/Doc'
 
 /** COMPONENTS - PARTIALS*/
 /** Navbar */
 export { default as NavBar } from './Partials/NavBar'
 /** Footer */
 export { default as Footer } from './Partials/Footer'
+/** Icon */
+export { default as Icon } from './Partials/Icon'
+export { default as IconsGrid } from './Partials/IconsGrid'
 
 /** Header */

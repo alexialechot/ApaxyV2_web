@@ -72,12 +72,12 @@ export default class NavBar extends Component {
 									data-toggle="collapse"
 									data-target=".navbar-collapse.show"
 								>
-									<Link className="nav-link" to="#1" smooth={true}>
+									<Link className="nav-link" to="/#icons" smooth={true}>
 										<button
 											type="button"
 											className="btn BtnWhite font-weight-bold"
 										>
-											<h3 className="">1</h3>
+											<h4 className="">icons</h4>
 										</button>
 									</Link>
 								</li>
@@ -86,12 +86,12 @@ export default class NavBar extends Component {
 									data-toggle="collapse"
 									data-target=".navbar-collapse.show"
 								>
-									<Link className="nav-link" to="#2" smooth={true}>
+									<Link className="nav-link" to="/#preview" smooth={true}>
 										<button
 											type="button"
 											className="btn BtnWhite font-weight-bold"
 										>
-											<h3 className="">2</h3>
+											<h4 className="">Preview</h4>
 										</button>
 									</Link>
 								</li>
@@ -100,12 +100,12 @@ export default class NavBar extends Component {
 									data-toggle="collapse"
 									data-target=".navbar-collapse.show"
 								>
-									<Link className="nav-link" to="#3" smooth={true}>
+									<Link className="nav-link" to="/documentation">
 										<button
 											type="button"
 											className="btn BtnWhite font-weight-bold"
 										>
-											<h3 className="">3</h3>
+											<h4 className="">Doc</h4>
 										</button>
 									</Link>
 								</li>

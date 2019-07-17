@@ -1,34 +1,48 @@
 @import './font.scss';
 @import './navbar.scss';
 @import './footer.scss';
+@import './icon.scss';
+@import './animation.scss';
 
-/* - - - - - - - - - - - - - - - - - - - - - GENERALE - - - - - - - - - - - - - - - - - - - - - - */
-body {
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 0.0625em;
-	background-color: rgb(250, 250, 250);
-	color: black;
-}
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
 /* - - - - - - - BOOTSTRAP - - - - - - - - */
 // Border radius
 $border-radius: 1.3rem;
 // mx- my- mt- mb- !!!
 $spacers: ('6': 6rem, '7': 7.7rem, '8': 6.5rem, '9': 10rem, '10': 11.6rem, '11': 12rem);
 // bg et text
-$dark: #333333;
+$dark: black;
 // couleur pour mes titres
 $secondary: #d5d5d5 !default;
-$primary: aqua !default;
+$primary: rgb(179, 43, 74) !default;
 // Import Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-/* - - - - - - - A - - - - - - - - */
-a:hover {
-	text-decoration: none;
+/* - - - - - - - - - - - - - - - - - - - - - GENERALE - - - - - - - - - - - - - - - - - - - - - - */
+body {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.0625em;
+	background-color: #161616;
+	color: white;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 	color: $primary;
+}
+
+/* - - - - - - - A - - - - - - - - */
+a {
+	color: $primary;
+
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 /* - - - - - - - BUTTON - - - - - - - - */

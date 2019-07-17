@@ -7,7 +7,9 @@ nav {
 	.navbar-toggler:focus {
 		outline: none;
 	}
-
+	.navbar-expand-lg {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
 	.AnimationNav {
 		animation: MyAnimationNav 1s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 		opacity: 0;

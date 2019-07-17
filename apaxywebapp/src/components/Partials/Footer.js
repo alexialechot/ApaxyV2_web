@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 /** Images */
 
 export default class Footer extends Component {
 	render() {
 		return (
-			<div>
-				<div className="Footer text-center bg-dark text-white">
+			<Fragment>
+				<div className="Footer text-center bg-dark text-white ">
 					{/* COPYRIGHT */}
-					<div className=" py-2">
-						<h3>
+					<div className="container py-2">
+						<h4>
 							© 2019{' '}
 							<a
 								className="App-link"
@@ -19,10 +19,10 @@ export default class Footer extends Component {
 							>
 								KRAKENWAVE
 							</a>
-						</h3>
+						</h4>
 					</div>
 				</div>
-			</div>
+			</Fragment>
 		)
 	}
 }
