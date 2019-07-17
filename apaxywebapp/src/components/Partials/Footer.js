@@ -6,10 +6,10 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="Footer text-center bg-dark text-white ">
+				<div className="Footer bg-dark">
 					{/* COPYRIGHT */}
-					<div className="container py-2">
-						<h4 className="text-center my-5">
+					<div className="container py-2 text-white text-center">
+						<h4 className="my-5">
 							Apaxy V2 by{' '}
 							<a
 								className="App-link"
@@ -22,7 +22,7 @@ export default class Footer extends Component {
 							© 2017
 						</h4>
 
-						<h4>
+						<h4 className="my-5">
 							Website by {' '}
 							<a
 								className="App-link"
@@ -30,7 +30,7 @@ export default class Footer extends Component {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								KRAKENWAVE
+								Krakenwave
 							</a>{' '}
 							© 2019
 						</h4>

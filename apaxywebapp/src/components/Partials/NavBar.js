@@ -49,7 +49,7 @@ export default class NavBar extends Component {
 				>
 					<div className="container">
 						<Link className="navbar-brand" to="/" onClick={this.scrollToTop}>
-							<img src={logo} alt={logo} height="35" />
+							<img src={logo} alt={logo} height="38" />
 						</Link>
 						<button
 							className="navbar-toggler btn"

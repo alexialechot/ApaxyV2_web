@@ -10,7 +10,7 @@ export default class IconsGrid extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="container">
+				<div className="container mx-auto">
 					{/* ICONS GRID */}
 					<div className="my-5" id="icons">
 						{/* <p className="text-center mb-5">ICONS DESIGN</p> */}
