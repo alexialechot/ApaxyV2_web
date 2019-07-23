@@ -7,6 +7,8 @@ export { default as NotFound } from './Features/NotFound'
 export { default as Appaxy } from './Features/Appaxy'
 /** PAGE Doc */
 export { default as Doc } from './Features/Doc'
+/** PAGE Donation */
+export { default as Donation } from './Features/Donation'
 
 /** COMPONENTS - PARTIALS*/
 /** Navbar */
