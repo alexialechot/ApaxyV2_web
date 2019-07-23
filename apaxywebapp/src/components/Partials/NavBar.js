@@ -132,6 +132,7 @@ export default class NavBar extends Component {
 										</button>
 									</NavLink>
 								</li>
+								{/* Doc Link */}
 								<li className="nav-item d-inline-block my-auto">
 									<a
 										className="nav-link"
