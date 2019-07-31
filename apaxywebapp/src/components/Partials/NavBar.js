@@ -68,7 +68,7 @@ export default class NavBar extends Component {
 								items={['icons', 'preview']}
 								currentClassName="active"
 							>
-								<li
+								{/* <li
 									className="nav-item"
 									data-toggle="collapse"
 									data-target=".navbar-collapse.show"
@@ -95,7 +95,7 @@ export default class NavBar extends Component {
 											<h4 className="">Preview</h4>
 										</button>
 									</Link>
-								</li>
+								</li> */}
 								<li
 									className="nav-item"
 									data-toggle="collapse"
@@ -114,6 +114,25 @@ export default class NavBar extends Component {
 										</button>
 									</NavLink>
 								</li>
+								<li
+									className="nav-item"
+									data-toggle="collapse"
+									data-target=".navbar-collapse.show"
+								>
+									<NavLink
+										className="nav-link"
+										to="/donation"
+										onClick={this.scrollToTop}
+									>
+										<button
+											type="button"
+											className="btn BtnWhite font-weight-bold"
+										>
+											<h4>Donate</h4>
+										</button>
+									</NavLink>
+								</li>
+								{/* Doc Link */}
 								<li className="nav-item d-inline-block my-auto">
 									<a
 										className="nav-link"

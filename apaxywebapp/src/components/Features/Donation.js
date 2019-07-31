@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react'
 /** Images */
 import { logosquare } from '../../img'
 
-export default class Doc extends Component {
+export default class Donation extends Component {
 	render() {
 		return (
 			<Fragment>
@@ -12,8 +12,8 @@ export default class Doc extends Component {
 					<header className="PageCenter">
 						<img src={logosquare} className="img-fluid" alt="logo" />
 						<p>
-							Apaxy V2 is a beautiful interface Apache 2
-							<code className="font-weight-bold">localhost</code>
+							Donation, please consider this work
+							<code className="font-weight-bold"> THANK YOU !</code>
 						</p>
 					</header>
 				</div>
