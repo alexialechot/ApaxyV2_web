@@ -6,28 +6,45 @@
 		"bootstrap": "^4.3.1",
 		"font-awesome": "^4.7.0",
 		"jquery": "^3.4.1",
+		"link-module-alias": "^1.2.0",
 		"node-sass": "^4.12.0",
 		"popper.js": "^1.15.0",
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6",
-		"react-router-dom": "^5.0.1",
-		"react-router-hash-link": "^1.2.1",
-		"react-scripts": "3.0.1",
-		"react-scroll": "^1.7.12",
+		"react": "^16.10.2",
+		"react-dom": "^16.10.2",
+		"react-router-dom": "^5.1.2",
+		"react-router-hash-link": "^1.2.2",
+		"react-scripts": "3.2.0",
+		"react-scroll": "^1.7.14",
 		"react-scrollspy": "^3.4.0",
-		"styled-components": "^4.3.2"
+		"styled-components": "^4.4.0"
 	},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"preinstall": "which link-module-alias && link-module-alias clean || echo",
+		"postinstall": "link-module-alias"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
 	},
+	"_moduleAliases": {
+		"~root": ".",
+		"components": "src/components",
+		"images": "src/img",
+		"db": "src/json"
+	},
 	"browserslist": {
-		"production": [">0.2%", "not dead", "not op_mini all"],
-		"development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }

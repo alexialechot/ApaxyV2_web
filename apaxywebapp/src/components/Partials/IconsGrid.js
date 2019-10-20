@@ -4,7 +4,7 @@ import React, { Component, Fragment } from 'react'
 import { Icon } from '../../components'
 
 /** DB */
-import IconsJson from '../../StaticDB/iconsstaticdata.json'
+import { IconsDB } from 'db'
 
 export default class IconsGrid extends Component {
 	render() {
@@ -15,7 +15,7 @@ export default class IconsGrid extends Component {
 					<div className="my-5" id="icons">
 						{/* <p className="text-center mb-5">ICONS DESIGN</p> */}
 						<div className="row align-items-end">
-							{IconsJson.icons.map((icon, index) => (
+							{IconsDB.icons.map((icon, index) => (
 								<div className="col-auto mx-auto">
 									{/* Grid of all the icons */}
 									<Icon
