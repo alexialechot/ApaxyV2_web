@@ -1,0 +1,16 @@
+1) Install ubuntu 
+2) Install apache2:                                                  sudo apt install apache2 -y
+3) Go to /var/www/html/:                                             sudo cd /var/www/html/
+4) Clone apaxy-v2:                                                   sudo git clone https://github.com/fusengine/apaxy-v2.git
+5) Move apaxy-v2 to /var/www/html/:                                  mv * /var/www/html/
+6) Change htaccess.txt to .htaccess in /var/www/html/:               mv htaccess.txt .htaccess
+7) Change htaccess.txt to .htaccess in /var/www/html/theme:          mv htaccess.txt .htaccess
+8) modify apache2.conf to read .htaccess:                            /etc/apache2/apache2.conf
+    <Directory "/var/www"> 
+        Options Indexes FollowSymLinks MultiViews 
+        AllowOverride All 
+        Order deny,allow 
+        Allow from all 
+        Require all granted 
+    </Directory> 
+9) and reboot apache2: service apache2 restart
